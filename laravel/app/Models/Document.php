@@ -10,19 +10,19 @@ class Document implements Wireable
      * @param Translation[] $translations
      */
     private function __construct(
-        protected int $documentId,
-        protected string $fileName,
-        protected string $language,
-        protected string $languageCode,
-        protected int $revision,
-        protected string $type,
-        protected \DateTime $uploadDate,
-        protected string $uploader,
-        protected int $textSegments,
-        protected int $uniqueTextSegments,
-        protected int $wordCount,
-        protected int $characterCount,
-        protected array $translations = []
+        public int $documentId,
+        public string $fileName,
+        public string $language,
+        public string $languageCode,
+        public int $revision,
+        public string $type,
+        public \DateTime $uploadDate,
+        public string $uploader,
+        public int $textSegments,
+        public int $uniqueTextSegments,
+        public int $wordCount,
+        public int $characterCount,
+        public array $translations = []
     ) {
     }
 

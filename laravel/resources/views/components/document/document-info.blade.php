@@ -1,0 +1,53 @@
+@php
+/** @var \App\Models\Document $document */
+@endphp
+<div class="mb-8">
+    <div class="flex justify-between items-center mb-4">
+        <div class="flex items-center gap-2">
+            <h2 class="text-xl font-semibold text-gray-800">{{ $document->fileName }}</h2>
+            <span class="text-sm text-gray-600">{{ $document->language }}</span>
+            <img src="https://flagcdn.com/24x18/{{ $document->languageCode }}.png" class="w-5 h-3 ml-1" alt="{{ $document->language }} flag"/>
+        </div>
+        <div class="flex items-center gap-4">
+            <button class="bg-white border border-gray-300 rounded-xl px-5 py-2 text-sm font-bold">Manage document</button>
+            <button class="bg-gray-200 text-gray-500 rounded-xl px-5 py-2 text-sm font-bold cursor-not-allowed">Pre-Translate</button>
+        </div>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 bg-white p-6 rounded shadow">
+        <div>
+            <div class="text-xs text-gray-500">Revision</div>
+            <div class="text-sm font-medium">{{ $document->revision }}</div>
+        </div>
+        <div>
+            <div class="text-xs text-gray-500">Type</div>
+            <div class="text-sm font-medium">{{ $document->type }}</div>
+        </div>
+        <div>
+            <div class="text-xs text-gray-500">Upload date</div>
+            <div class="text-sm font-medium">{{ $document->uploadDate->format('d/m/Y H:i:s') }}</div>
+        </div>
+        <div>
+            <div class="text-xs text-gray-500">Uploader</div>
+            <div class="text-sm font-medium">{{ $document->uploader }}</div>
+        </div>
+        <div>
+            <div class="text-xs text-gray-500">Text segments</div>
+            <div class="text-sm font-medium">{{ $document->textSegments }}</div>
+        </div>
+        <div>
+            <div class="text-xs text-gray-500">Unique text segments</div>
+            <div class="text-sm font-medium">{{ $document->uniqueTextSegments }}</div>
+        </div>
+        <div>
+            <div class="text-xs text-gray-500">Words</div>
+            <div class="text-sm font-medium">{{ $document->wordCount }}</div>
+        </div>
+        <div>
+            <div class="text-xs text-gray-500">Characters</div>
+            <div class="text-sm font-medium">{{ number_format($document->characterCount) }}</div>
+        </div>
+    </div>
+</div>
+
+
