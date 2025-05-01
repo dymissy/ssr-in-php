@@ -2,6 +2,7 @@
 
 namespace App\Services;
 
+use App\Models\Document;
 use GuzzleHttp\Client;
 
 class ApiClient
@@ -10,10 +11,11 @@ class ApiClient
     {
     }
 
-    public function getDocument(int $documentId): array
+    public function getDocument(int $documentId): Document
     {
         $response = $this->client->get("/documents/$documentId");
+        $data = json_decode($response->getBody()->getContents(), true);
 
-        return json_decode($response->getBody()->getContents(), true);
+        return Document::create($data['document']);
     }
 }
