@@ -1,0 +1,53 @@
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8080:80"
+    volumes:
+      - ./backend:/var/www/html
+    working_dir: /var/www/html
+    command: php -S 0.0.0.0:80 index.php
+    networks:
+      - ssr_app
+
+  laravel.test:
+    build:
+      context: './laravel/vendor/laravel/sail/runtimes/8.4'
+      dockerfile: Dockerfile
+      args:
+        WWWGROUP: '${WWWGROUP}'
+    image: 'sail-8.4/app'
+    extra_hosts:
+      - 'host.docker.internal:host-gateway'
+    ports:
+      - '${APP_PORT:-8081}:80'
+      - '${VITE_PORT:-5173}:${VITE_PORT:-5173}'
+    environment:
+      WWWUSER: '${WWWUSER}'
+      LARAVEL_SAIL: 1
+      XDEBUG_MODE: '${SAIL_XDEBUG_MODE:-off}'
+      XDEBUG_CONFIG: '${SAIL_XDEBUG_CONFIG:-client_host=host.docker.internal}'
+      IGNITION_LOCAL_SITES_PATH: '${PWD}'
+    volumes:
+      - './laravel:/var/www/html'
+    networks:
+      - ssr_app
+    depends_on:
+      - backend
+
+  symfony:
+    build: ./symfony
+    ports:
+      - "8082:8000"
+    volumes:
+      - './symfony:/app'
+    working_dir: /app
+    command: php -S 0.0.0.0:8000 -t public
+    networks:
+      - ssr_app
+    depends_on:
+      - backend
+
+networks:
+  ssr_app:
+    driver: bridge
