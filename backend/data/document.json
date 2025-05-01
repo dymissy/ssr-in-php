@@ -1,0 +1,105 @@
+{
+  "document": {
+    "documentId": "1",
+    "fileName": "Translation_Platform_Technical_Overview.docx",
+    "language": "Italian",
+    "languageCode": "it",
+    "revision": 1,
+    "type": "Microsoft Word",
+    "uploadDate": "2025-01-03T12:27:00",
+    "uploader": "Simone D'Amico",
+    "textSegments": 26,
+    "uniqueTextSegments": 26,
+    "wordCount": 302,
+    "characterCount": 1976,
+    "translations": [
+      {
+        "translationId": "1",
+        "languageCode": "nl",
+        "language": "Dutch",
+        "status": "Confirmed",
+        "progress": 100,
+        "translators": [
+          {
+            "name": "Tomáš Novák",
+            "avatarUrl": "https://i.pravatar.cc/32?img=6"
+          },
+          {
+            "name": "Yuki Tanaka",
+            "avatarUrl": "https://i.pravatar.cc/32?img=7"
+          },
+          {
+            "name": "Ana Rodríguez",
+            "avatarUrl": "https://i.pravatar.cc/32?img=8"
+          },
+          {
+            "name": "Fatima El Amrani",
+            "avatarUrl": "https://i.pravatar.cc/32?img=9"
+          },
+          {
+            "name": "Jonas Schneider",
+            "avatarUrl": "https://i.pravatar.cc/32?img=10"
+          },
+          {
+            "name": "Amina Yusuf",
+            "avatarUrl": "https://i.pravatar.cc/32?img=11"
+          },
+          {
+            "name": "Dmitry Ivanov",
+            "avatarUrl": "https://i.pravatar.cc/32?img=12"
+          }
+        ]
+      },
+      {
+        "translationId": "2",
+        "languageCode": "de",
+        "language": "German",
+        "status": "Unconfirmed",
+        "progress": 42,
+        "translators": [
+          {
+            "name": "Luca Moretti",
+            "avatarUrl": "https://i.pravatar.cc/32?img=1"
+          },
+          {
+            "name": "Sofia Bianchi",
+            "avatarUrl": "https://i.pravatar.cc/32?img=2"
+          },
+          {
+            "name": "James Carter",
+            "avatarUrl": "https://i.pravatar.cc/32?img=3"
+          },
+          {
+            "name": "Marie Dubois",
+            "avatarUrl": "https://i.pravatar.cc/32?img=4"
+          },
+          {
+            "name": "Ananya Kapoor",
+            "avatarUrl": "https://i.pravatar.cc/32?img=5"
+          }
+        ]
+      },
+      {
+        "translationId": "3",
+        "languageCode": "fr",
+        "language": "French",
+        "status": "In progress",
+        "progress": 0,
+        "translators": [
+          {
+            "name": "Rachel Cohen",
+            "avatarUrl": "https://i.pravatar.cc/32?img=13"
+          },
+          {
+            "name": "Chen Wei",
+            "avatarUrl": "https://i.pravatar.cc/32?img=14"
+          },
+          {
+            "name": "Elena Petrova",
+            "avatarUrl": "https://i.pravatar.cc/32?img=15"
+          }
+        ]
+      }
+    ]
+  }
+}

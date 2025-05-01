@@ -99,7 +99,7 @@
                         </div>
                     </td>
                     <td class="px-6 py-4 flex gap-2">
-                        <button class="bg-blue-100 text-blue-600 border rounded-xl cursor-pointer hover:border-blue-700 text-sm px-5 py-2 font-bold">Editor</button>
+                        <button class="bg-blue-100 text-blue-600 border rounded-xl cursor-pointer hover:border-blue-700 text-sm px-5 py-2 font-bold">Confirm</button>
                         <button class="bg-blue-100 text-blue-600 border rounded-xl cursor-pointer hover:border-blue-700 text-sm px-5 py-2 font-bold">Download</button>
                     </td>
                 </tr>
@@ -130,7 +130,7 @@
                         </div>
                     </td>
                     <td class="px-6 py-4 flex gap-2">
-                        <button class="bg-blue-100 cursor-hand text-blue-600 border rounded-xl cursor-pointer hover:border-blue-700 text-sm px-5 py-2 font-bold">Editor</button>
+                        <button class="bg-blue-100 cursor-hand text-blue-600 border rounded-xl cursor-pointer hover:border-blue-700 text-sm px-5 py-2 font-bold">Confirm</button>
                         <button class="bg-blue-100 text-blue-600 border rounded-xl cursor-pointer hover:border-blue-700 text-sm px-5 py-2 font-bold">Download</button>
                     </td>
                 </tr>

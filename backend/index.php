@@ -22,7 +22,7 @@ $app->options('/{routes:.+}', function (Request $request, Response $response) {
 });
 
 $app->get('/documents/{documentId}', function (Request $request, Response $response, array $args) {
-    $payload = json_encode([]);
+    $payload = file_get_contents(__DIR__ . '/data/document.json');
     $response->getBody()->write($payload);
     return $response->withHeader('Content-Type', 'application/json')->withStatus(200);
 });
