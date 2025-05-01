@@ -10,12 +10,12 @@ class Translation implements Wireable
      * @param Translator[] $translators
      */
     private function __construct(
-        protected int $translationId,
-        protected string $languageCode,
-        protected string $language,
-        protected string $status,
-        protected int $progress,
-        protected array $translators = []
+        public int $translationId,
+        public string $languageCode,
+        public string $language,
+        public string $status,
+        public int $progress,
+        public array $translators = []
     ) {
     }
 

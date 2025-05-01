@@ -7,8 +7,8 @@ use Livewire\Wireable;
 class Translator implements Wireable
 {
     private function __construct(
-        protected string $name,
-        protected string $avatarUrl
+        public string $name,
+        public string $avatarUrl
     ) {
     }
 
