@@ -99,6 +99,64 @@
             "avatarUrl": "https://i.pravatar.cc/32?img=15"
           }
         ]
+      },
+      {
+        "translationId": "4",
+        "languageCode": "cn",
+        "language": "Chinese (simplified)",
+        "status": "Unconfirmed",
+        "progress": 100,
+        "translators": [
+          {
+            "name": "Mateusz Kowalski",
+            "avatarUrl": "https://i.pravatar.cc/32?img=16"
+          },
+          {
+            "name": "Isabella Rossi",
+            "avatarUrl": "https://i.pravatar.cc/32?img=17"
+          },
+          {
+            "name": "Ahmed Hassan",
+            "avatarUrl": "https://i.pravatar.cc/32?img=18"
+          },
+          {
+            "name": "Emily Johnson",
+            "avatarUrl": "https://i.pravatar.cc/32?img=19"
+          },
+          {
+            "name": "Hanna Bergström",
+            "avatarUrl": "https://i.pravatar.cc/32?img=20"
+          },
+          {
+            "name": "Pedro Silva",
+            "avatarUrl": "https://i.pravatar.cc/32?img=21"
+          }
+        ]
+      },
+      {
+        "translationId": "5",
+        "languageCode": "za",
+        "language": "Afrikaans",
+        "status": "In progress",
+        "progress": 20,
+        "translators": [
+          {
+            "name": "Théo Lefèvre",
+            "avatarUrl": "https://i.pravatar.cc/32?img=22"
+          },
+          {
+            "name": "Nguyen Thi Mai",
+            "avatarUrl": "https://i.pravatar.cc/32?img=23"
+          },
+          {
+            "name": "Jana Horváthová",
+            "avatarUrl": "https://i.pravatar.cc/32?img=24"
+          },
+          {
+            "name": "Omar Al-Fulan",
+            "avatarUrl": "https://i.pravatar.cc/32?img=25"
+          }
+        ]
       }
     ]
   }
