@@ -1,0 +1,5 @@
+<div class="flex -space-x-2">
+    {% for translator in translators %}
+        <twig:Common:Avatar :avatar="translator.avatarUrl" :name="translator.name" />
+    {% endfor %}
+</div>

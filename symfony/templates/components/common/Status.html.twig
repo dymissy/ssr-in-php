@@ -1,0 +1,6 @@
+{% set classes = {
+    'In progress': 'text-blue-600 bg-gray-50',
+    'Confirmed': 'text-green-700 bg-green-100'
+}[status] | default('text-gray-600 bg-gray-100') %}
+
+<span class="{{ classes }} px-2 py-0.5 rounded">{{ status }}</span>

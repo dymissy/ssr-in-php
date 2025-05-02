@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ document.fileName }}{% endblock %}
+
+{% block body %}
+<div class="max-w-7xl mx-auto px-6 py-10">
+
+    <!-- Document Info -->
+    <twig:Document:DocumentInfo :document="document" />
+
+    <!-- Document Translations -->
+    <twig:Document:DocumentTranslations :documentId="document.documentId" :translations="document.translations" />
+</div>
+{% endblock %}
