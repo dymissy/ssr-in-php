@@ -1,3 +1,6 @@
+@php
+/** @var \App\Models\Translation $translation */
+@endphp
 <tr class="border-t">
     <td class="px-6 py-4"><input type="checkbox" /></td>
     <td class="px-6 py-4">
@@ -16,7 +19,6 @@
         <x-document.translation.translators :translators="$translation->translators" />
     </td>
     <td class="px-6 py-4 flex gap-2">
-        <button class="bg-blue-100 text-blue-600 border rounded-xl cursor-pointer hover:border-blue-700 text-sm px-5 py-2 font-bold">Confirm</button>
-        <button class="text-blue-600 border rounded-xl cursor-pointer hover:border-blue-700 text-sm px-5 py-2 font-bold">Download</button>
+        <x-document.translation.actions :translation="$translation" />
     </td>
 </tr>
