@@ -1,5 +1,5 @@
 @php
-/** @var \App\Models\Translation $translation */
+    /** @var \App\Models\Translation $translation */
 @endphp
 <tr class="border-t">
     <td class="px-6 py-4"><input type="checkbox" /></td>
@@ -19,6 +19,6 @@
         <x-document.translation.translators :translators="$translation->translators" />
     </td>
     <td class="px-6 py-4 flex gap-2">
-        <x-document.translation.actions :translation="$translation" />
+        <livewire:document.translation.actions :documentId="$documentId" :translation="$translation" />
     </td>
 </tr>

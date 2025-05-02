@@ -21,7 +21,7 @@
             </thead>
             <tbody>
             @foreach($translations as $translation)
-                <x-document.translation.row :translation="$translation" :documentId="$documentId" />
+                <livewire:document.translation :translation="$translation" :documentId="$documentId" />
             @endforeach
             </tbody>
         </table>
