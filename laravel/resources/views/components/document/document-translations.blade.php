@@ -1,5 +1,6 @@
 @php
-    /** @var \App\Models\Document $document */
+    /** @var \App\Models\Translation[] $translations */
+    /** @var int $documentId */
 @endphp
 <div class="bg-white rounded shadow">
     <div class="flex justify-between items-center px-6 py-4 border-b">
@@ -19,29 +20,8 @@
             </tr>
             </thead>
             <tbody>
-            @foreach($document->translations as $translation)
-                <tr class="border-t">
-                    <td class="px-6 py-4"><input type="checkbox" /></td>
-                    <td class="px-6 py-4">
-                        <div class="flex items-center gap-2">
-                            <img src="https://flagcdn.com/24x18/{{ $translation->languageCode }}.png" class="w-5 h-3" alt="{{ $translation->language }} flag" />
-                            <div class="text-blue-600 font-bold">{{ $translation->language }}</div>
-                        </div>
-                    </td>
-                    <td class="px-6 py-4 text-xs font-bold">
-                        <x-common.status :status="$translation->status" />
-                    </td>
-                    <td class="px-6 py-4">
-                        <x-common.progress :progress="$translation->progress" />
-                    </td>
-                    <td class="px-6 py-4">
-                        <x-document.document-translators :translators="$translation->translators" />
-                    </td>
-                    <td class="px-6 py-4 flex gap-2">
-                        <button class="bg-blue-100 text-blue-600 border rounded-xl cursor-pointer hover:border-blue-700 text-sm px-5 py-2 font-bold">Confirm</button>
-                        <button class="text-blue-600 border rounded-xl cursor-pointer hover:border-blue-700 text-sm px-5 py-2 font-bold">Download</button>
-                    </td>
-                </tr>
+            @foreach($translations as $translation)
+                <x-document.translation.row :translation="$translation" :documentId="$documentId" />
             @endforeach
             </tbody>
         </table>

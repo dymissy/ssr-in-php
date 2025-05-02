@@ -3,7 +3,5 @@
     <x-document.document-info :document="$document"/>
 
     <!-- Document Translations -->
-    <x-document.document-translations :document="$document"/>
+    <x-document.document-translations :documentId="$document->documentId" :translations="$document->translations"/>
 </div>
-
-
