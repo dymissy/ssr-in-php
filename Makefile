@@ -1,4 +1,4 @@
-.PHONY: up down laravel symfony backend start-laravel
+.PHONY: up down laravel symfony backend start-laravel start-symfony
 
 up:
 	docker compose up
@@ -14,6 +14,9 @@ start-laravel:
 
 symfony:
 	docker compose exec symfony bash
+
+start-symfony:
+	docker compose exec symfony php bin/console tailwind:build --watch
 
 backend:
 	docker compose exec backend bash
