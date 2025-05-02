@@ -1,0 +1,11 @@
+<div class="max-w-7xl mx-auto px-6 py-10">
+    <div class="flex justify-between items-center mb-4">
+        <h2 class="text-xl font-semibold text-gray-800">Document list</h2>
+        <div class="flex gap-2">
+            <button class="bg-white border border-gray-300 rounded-xl px-4 py-2 text-sm font-bold cursor-pointer hover:bg-gray-100">New folder</button>
+            <button class="bg-blue-600 text-white rounded-xl px-4 py-2 text-sm font-bold cursor-pointer hover:bg-blue-700">Upload document</button>
+        </div>
+    </div>
+
+    <x-documents.documents-list :documents="$documents"/>
+</div>

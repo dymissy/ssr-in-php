@@ -7,24 +7,25 @@ use Livewire\Component;
 use Illuminate\Contracts\View\View;
 use Symfony\Component\HttpFoundation\Request;
 
-class Document extends Component
+class Documents extends Component
 {
     public int $documentId;
-    public \App\Models\Document $document;
+    /** @var \App\Models\Document[] */
+    private array $documents;
 
     public function mount(
         Request $request,
         ApiClient $apiClient,
-        int $documentId
+        int $documentId = 1
     ): void {
         $this->documentId = $documentId;
-        $this->document = $apiClient->getDocument($this->documentId);
+        $this->documents = $apiClient->getDocuments();
     }
 
     public function render(): View
     {
-        return view('livewire.document', [
-            'document' => $this->document,
+        return view('livewire.documents', [
+            'documents' => $this->documents,
         ]);
     }
 }

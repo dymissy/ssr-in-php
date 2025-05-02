@@ -5,11 +5,24 @@ namespace App\Services;
 use App\Models\Document;
 use App\Models\Translation;
 use GuzzleHttp\Client;
+use GuzzleHttp\Exception\GuzzleException;
 
 class ApiClient
 {
     public function __construct(private Client $client)
     {
+    }
+
+    /**
+     * @return Document[]
+     * @throws GuzzleException
+     */
+    public function getDocuments(): array
+    {
+        $response = $this->client->get("/documents/1");
+        $data = json_decode($response->getBody()->getContents(), true);
+
+        return [Document::create($data['document'])];
     }
 
     public function getDocument(int $documentId): Document

@@ -1,0 +1,29 @@
+@php
+    /** @var \App\Models\Document $document */
+@endphp
+<tr class="border-t">
+    <td class="px-6 py-4"><input type="checkbox" /></td>
+    <td class="px-6 py-4">
+        <a class="text-blue-600 font-bold" href="{{ route('document', ['documentId' => $document->documentId]) }}" wire:navigate>{{ $document->fileName }}</a>
+    </td>
+    <td class="px-6 py-4">
+        <span class="font-bold">{{ $document->uploader }}</span>
+    </td>
+    <td class="px-6 py-4">
+        <div class="flex items-center gap-2">
+            <img src="https://flagcdn.com/24x18/{{ $document->languageCode }}.png" class="w-5 h-3" alt="{{ $document->language }} flag" />
+            <div class="text-blue-600 font-bold">{{ $document->language }}</div>
+        </div>
+    </td>
+    <td class="px-6 py-4 flex gap-2">
+        <a
+            class="text-sm font-bold px-5 py-2 rounded-xl border cursor-pointer
+         bg-blue-100 text-blue-600 hover:border-blue-700
+         disabled:bg-gray-200 disabled:text-gray-400 disabled:border-gray-300 disabled:cursor-not-allowed"
+            href="{{ route('document', ['documentId' => $document->documentId]) }}"
+            wire:navigate
+        >
+            See details
+        </a>
+    </td>
+</tr>
