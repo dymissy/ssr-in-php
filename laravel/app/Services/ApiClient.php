@@ -19,10 +19,12 @@ class ApiClient
      */
     public function getDocuments(): array
     {
-        $response = $this->client->get("/documents/1");
+        $response = $this->client->get("/documents");
         $data = json_decode($response->getBody()->getContents(), true);
 
-        return [Document::create($data['document'])];
+        return array_map(function (array $document) {
+            return Document::create($document);
+        }, $data['documents']);
     }
 
     public function getDocument(int $documentId): Document
