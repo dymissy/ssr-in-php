@@ -19,6 +19,6 @@
         <x-document.translation.translators :translators="$translation->translators" />
     </td>
     <td class="px-6 py-4 flex gap-2">
-        <livewire:document.translation.actions :documentId="$documentId" :translation="$translation" />
+        <livewire:document.translation.actions :documentId="$documentId" :translation="$translation" wire:key="{{ now() }}" />
     </td>
 </tr>
