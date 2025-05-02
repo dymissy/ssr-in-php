@@ -50,6 +50,6 @@
         {{ $slot }}
 
         @vite('resources/js/app.js')
-        @livewireScriptConfig
+        @livewireScripts
     </body>
 </html>
