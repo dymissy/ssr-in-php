@@ -27,10 +27,7 @@ class Actions extends Component
 
     public function confirm(): void
     {
-        $this->translation = $this->apiClient->confirmTranslation(
-            $this->documentId,
-            $this->translation->translationId
-        );
+        $this->dispatch("translation-confirmed.{$this->translation->translationId}");
     }
 
     public function render(): View

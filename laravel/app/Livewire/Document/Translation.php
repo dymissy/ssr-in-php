@@ -5,6 +5,7 @@ namespace App\Livewire\Document;
 use App\Services\ApiClient;
 use Illuminate\Contracts\View\View;
 use Illuminate\Http\Request;
+use Livewire\Attributes\On;
 use Livewire\Component;
 use App\Models\Translation as TranslationModel;
 
@@ -25,6 +26,7 @@ class Translation extends Component
         $this->translation = $translation;
     }
 
+    #[On('translation-confirmed.{translation.translationId}')]
     public function onConfirm(): void
     {
         $this->translation = $this->apiClient->confirmTranslation(

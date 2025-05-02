@@ -12,6 +12,7 @@
         {{ $confirmDisabled ? 'disabled' : '' }}
 
         wire:click="confirm"
+        wire:confirm="Are you sure you want to confirm this translation?"
     >
         Confirm
     </button>
