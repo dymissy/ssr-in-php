@@ -15,146 +15,130 @@
     "translations": [
       {
         "translationId": 1,
-        "languageCode": "nl",
-        "language": "Dutch",
+        "languageCode": "fr",
+        "language": "French",
         "status": "In progress",
         "progress": 78,
         "translators": [
           {
-            "name": "Tom\u00e1\u0161 Nov\u00e1k",
-            "avatarUrl": "https://i.pravatar.cc/32?img=6"
+            "name": "Cristina Popescu",
+            "avatarUrl": "https://i.pravatar.cc/32?u=102"
           },
           {
-            "name": "Yuki Tanaka",
-            "avatarUrl": "https://i.pravatar.cc/32?img=7"
+            "name": "Vesa Laine",
+            "avatarUrl": "https://i.pravatar.cc/32?u=103"
           },
           {
-            "name": "Ana Rodr\u00edguez",
-            "avatarUrl": "https://i.pravatar.cc/32?img=8"
-          },
-          {
-            "name": "Fatima El Amrani",
-            "avatarUrl": "https://i.pravatar.cc/32?img=9"
-          },
-          {
-            "name": "Jonas Schneider",
-            "avatarUrl": "https://i.pravatar.cc/32?img=10"
-          },
-          {
-            "name": "Amina Yusuf",
-            "avatarUrl": "https://i.pravatar.cc/32?img=11"
-          },
-          {
-            "name": "Dmitry Ivanov",
-            "avatarUrl": "https://i.pravatar.cc/32?img=12"
+            "name": "Anders Nilsen",
+            "avatarUrl": "https://i.pravatar.cc/32?u=104"
           }
         ]
       },
       {
         "translationId": 2,
-        "languageCode": "de",
-        "language": "German",
+        "languageCode": "us",
+        "language": "English (US)",
         "status": "Unconfirmed",
         "progress": 25,
         "translators": [
           {
-            "name": "Luca Moretti",
-            "avatarUrl": "https://i.pravatar.cc/32?img=1"
+            "name": "Andrei Ionescu",
+            "avatarUrl": "https://i.pravatar.cc/32?u=112"
           },
           {
-            "name": "Sofia Bianchi",
-            "avatarUrl": "https://i.pravatar.cc/32?img=2"
+            "name": "Sanna Virtanen",
+            "avatarUrl": "https://i.pravatar.cc/32?u=113"
           },
           {
-            "name": "James Carter",
-            "avatarUrl": "https://i.pravatar.cc/32?img=3"
-          },
-          {
-            "name": "Marie Dubois",
-            "avatarUrl": "https://i.pravatar.cc/32?img=4"
-          },
-          {
-            "name": "Ananya Kapoor",
-            "avatarUrl": "https://i.pravatar.cc/32?img=5"
+            "name": "Lars Johansen",
+            "avatarUrl": "https://i.pravatar.cc/32?u=114"
           }
         ]
       },
       {
         "translationId": 3,
-        "languageCode": "fr",
-        "language": "French",
+        "languageCode": "gr",
+        "language": "Greek",
         "status": "Unconfirmed",
         "progress": 0,
         "translators": [
           {
-            "name": "Rachel Cohen",
-            "avatarUrl": "https://i.pravatar.cc/32?img=13"
+            "name": "Nikos Papadopoulos",
+            "avatarUrl": "https://i.pravatar.cc/32?u=122"
           },
           {
-            "name": "Chen Wei",
-            "avatarUrl": "https://i.pravatar.cc/32?img=14"
+            "name": "Nguyen Van A",
+            "avatarUrl": "https://i.pravatar.cc/32?u=123"
           },
           {
-            "name": "Elena Petrova",
-            "avatarUrl": "https://i.pravatar.cc/32?img=15"
+            "name": "Leah Levi",
+            "avatarUrl": "https://i.pravatar.cc/32?u=124"
+          },
+          {
+            "name": "Putri Ayu",
+            "avatarUrl": "https://i.pravatar.cc/32?u=125"
+          },
+          {
+            "name": "Thanawat Boonmee",
+            "avatarUrl": "https://i.pravatar.cc/32?u=126"
           }
         ]
       },
       {
         "translationId": 4,
-        "languageCode": "cn",
-        "language": "Chinese (simplified)",
+        "languageCode": "gb",
+        "language": "English (UK)",
         "status": "In progress",
         "progress": 76,
         "translators": [
           {
-            "name": "Mateusz Kowalski",
-            "avatarUrl": "https://i.pravatar.cc/32?img=16"
+            "name": "Cristina Popescu",
+            "avatarUrl": "https://i.pravatar.cc/32?u=132"
           },
           {
-            "name": "Isabella Rossi",
-            "avatarUrl": "https://i.pravatar.cc/32?img=17"
+            "name": "Vesa Laine",
+            "avatarUrl": "https://i.pravatar.cc/32?u=133"
           },
           {
-            "name": "Ahmed Hassan",
-            "avatarUrl": "https://i.pravatar.cc/32?img=18"
+            "name": "Anders Nilsen",
+            "avatarUrl": "https://i.pravatar.cc/32?u=134"
           },
           {
-            "name": "Emily Johnson",
-            "avatarUrl": "https://i.pravatar.cc/32?img=19"
+            "name": "Ali Mansour",
+            "avatarUrl": "https://i.pravatar.cc/32?u=135"
           },
           {
-            "name": "Hanna Bergstr\u00f6m",
-            "avatarUrl": "https://i.pravatar.cc/32?img=20"
+            "name": "Deepa Singh",
+            "avatarUrl": "https://i.pravatar.cc/32?u=136"
           },
           {
-            "name": "Pedro Silva",
-            "avatarUrl": "https://i.pravatar.cc/32?img=21"
+            "name": "Nikos Papadopoulos",
+            "avatarUrl": "https://i.pravatar.cc/32?u=137"
           }
         ]
       },
       {
         "translationId": 5,
-        "languageCode": "za",
-        "language": "Afrikaans",
+        "languageCode": "al",
+        "language": "Albanian",
         "status": "Unconfirmed",
         "progress": 0,
         "translators": [
           {
-            "name": "Th\u00e9o Lef\u00e8vre",
-            "avatarUrl": "https://i.pravatar.cc/32?img=22"
+            "name": "Andrei Ionescu",
+            "avatarUrl": "https://i.pravatar.cc/32?u=142"
           },
           {
-            "name": "Nguyen Thi Mai",
-            "avatarUrl": "https://i.pravatar.cc/32?img=23"
+            "name": "Sanna Virtanen",
+            "avatarUrl": "https://i.pravatar.cc/32?u=143"
           },
           {
-            "name": "Jana Horv\u00e1thov\u00e1",
-            "avatarUrl": "https://i.pravatar.cc/32?img=24"
+            "name": "Lars Johansen",
+            "avatarUrl": "https://i.pravatar.cc/32?u=144"
           },
           {
-            "name": "Omar Al-Fulan",
-            "avatarUrl": "https://i.pravatar.cc/32?img=25"
+            "name": "Maya Cohen",
+            "avatarUrl": "https://i.pravatar.cc/32?u=145"
           }
         ]
       }

@@ -47,8 +47,14 @@ $app->get('/documents/{documentId}', function (Request $request, Response $respo
 
 $app->patch('/documents/{documentId}/translations/{translationId}',
     function (Request $request, Response $response, array $args) {
+        $documentId = (int) $args['documentId'];
+        if (!file_exists(__DIR__ . "/data/document$documentId.json")) {
+            $response->getBody()->write(json_encode(['error' => 'Document not found']));
+            return $response->withHeader('Content-Type', 'application/json')->withStatus(404);
+        }
+
         $translationId = (int) $args['translationId'];
-        $data = json_decode(file_get_contents(__DIR__.'/data/document1.json'), true);
+        $data = json_decode(file_get_contents(__DIR__ . "/data/document$documentId.json"), true);
 
         $filteredTranslations = array_filter($data['document']['translations'], function ($item) use ($translationId) {
             return $item['translationId'] === $translationId;

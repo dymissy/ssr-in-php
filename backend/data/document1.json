@@ -22,31 +22,31 @@
         "translators": [
           {
             "name": "Tomáš Novák",
-            "avatarUrl": "https://i.pravatar.cc/32?img=6"
+            "avatarUrl": "https://i.pravatar.cc/32?u=6"
           },
           {
             "name": "Yuki Tanaka",
-            "avatarUrl": "https://i.pravatar.cc/32?img=7"
+            "avatarUrl": "https://i.pravatar.cc/32?u=7"
           },
           {
             "name": "Ana Rodríguez",
-            "avatarUrl": "https://i.pravatar.cc/32?img=8"
+            "avatarUrl": "https://i.pravatar.cc/32?u=8"
           },
           {
             "name": "Fatima El Amrani",
-            "avatarUrl": "https://i.pravatar.cc/32?img=9"
+            "avatarUrl": "https://i.pravatar.cc/32?u=9"
           },
           {
             "name": "Jonas Schneider",
-            "avatarUrl": "https://i.pravatar.cc/32?img=10"
+            "avatarUrl": "https://i.pravatar.cc/32?u=10"
           },
           {
             "name": "Amina Yusuf",
-            "avatarUrl": "https://i.pravatar.cc/32?img=11"
+            "avatarUrl": "https://i.pravatar.cc/32?u=11"
           },
           {
             "name": "Dmitry Ivanov",
-            "avatarUrl": "https://i.pravatar.cc/32?img=12"
+            "avatarUrl": "https://i.pravatar.cc/32?u=12"
           }
         ]
       },
@@ -59,23 +59,23 @@
         "translators": [
           {
             "name": "Luca Moretti",
-            "avatarUrl": "https://i.pravatar.cc/32?img=1"
+            "avatarUrl": "https://i.pravatar.cc/32?u=1"
           },
           {
             "name": "Sofia Bianchi",
-            "avatarUrl": "https://i.pravatar.cc/32?img=2"
+            "avatarUrl": "https://i.pravatar.cc/32?u=2"
           },
           {
             "name": "James Carter",
-            "avatarUrl": "https://i.pravatar.cc/32?img=3"
+            "avatarUrl": "https://i.pravatar.cc/32?u=3"
           },
           {
             "name": "Marie Dubois",
-            "avatarUrl": "https://i.pravatar.cc/32?img=4"
+            "avatarUrl": "https://i.pravatar.cc/32?u=4"
           },
           {
             "name": "Ananya Kapoor",
-            "avatarUrl": "https://i.pravatar.cc/32?img=5"
+            "avatarUrl": "https://i.pravatar.cc/32?u=5"
           }
         ]
       },
@@ -88,15 +88,15 @@
         "translators": [
           {
             "name": "Rachel Cohen",
-            "avatarUrl": "https://i.pravatar.cc/32?img=13"
+            "avatarUrl": "https://i.pravatar.cc/32?u=13"
           },
           {
             "name": "Chen Wei",
-            "avatarUrl": "https://i.pravatar.cc/32?img=14"
+            "avatarUrl": "https://i.pravatar.cc/32?u=14"
           },
           {
             "name": "Elena Petrova",
-            "avatarUrl": "https://i.pravatar.cc/32?img=15"
+            "avatarUrl": "https://i.pravatar.cc/32?u=15"
           }
         ]
       },
@@ -109,27 +109,27 @@
         "translators": [
           {
             "name": "Mateusz Kowalski",
-            "avatarUrl": "https://i.pravatar.cc/32?img=16"
+            "avatarUrl": "https://i.pravatar.cc/32?u=16"
           },
           {
             "name": "Isabella Rossi",
-            "avatarUrl": "https://i.pravatar.cc/32?img=17"
+            "avatarUrl": "https://i.pravatar.cc/32?u=17"
           },
           {
             "name": "Ahmed Hassan",
-            "avatarUrl": "https://i.pravatar.cc/32?img=18"
+            "avatarUrl": "https://i.pravatar.cc/32?u=18"
           },
           {
             "name": "Emily Johnson",
-            "avatarUrl": "https://i.pravatar.cc/32?img=19"
+            "avatarUrl": "https://i.pravatar.cc/32?u=19"
           },
           {
             "name": "Hanna Bergström",
-            "avatarUrl": "https://i.pravatar.cc/32?img=20"
+            "avatarUrl": "https://i.pravatar.cc/32?u=20"
           },
           {
             "name": "Pedro Silva",
-            "avatarUrl": "https://i.pravatar.cc/32?img=21"
+            "avatarUrl": "https://i.pravatar.cc/32?u=21"
           }
         ]
       },
@@ -142,19 +142,19 @@
         "translators": [
           {
             "name": "Théo Lefèvre",
-            "avatarUrl": "https://i.pravatar.cc/32?img=22"
+            "avatarUrl": "https://i.pravatar.cc/32?u=22"
           },
           {
             "name": "Nguyen Thi Mai",
-            "avatarUrl": "https://i.pravatar.cc/32?img=23"
+            "avatarUrl": "https://i.pravatar.cc/32?u=23"
           },
           {
             "name": "Jana Horváthová",
-            "avatarUrl": "https://i.pravatar.cc/32?img=24"
+            "avatarUrl": "https://i.pravatar.cc/32?u=24"
           },
           {
             "name": "Omar Al-Fulan",
-            "avatarUrl": "https://i.pravatar.cc/32?img=25"
+            "avatarUrl": "https://i.pravatar.cc/32?u=25"
           }
         ]
       }
