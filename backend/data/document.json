@@ -1,6 +1,6 @@
 {
   "document": {
-    "documentId": "1",
+    "documentId": 1,
     "fileName": "Translation_Platform_Technical_Overview.docx",
     "language": "Italian",
     "languageCode": "it",
@@ -14,7 +14,7 @@
     "characterCount": 1976,
     "translations": [
       {
-        "translationId": "1",
+        "translationId": 1,
         "languageCode": "nl",
         "language": "Dutch",
         "status": "Confirmed",
@@ -51,7 +51,7 @@
         ]
       },
       {
-        "translationId": "2",
+        "translationId": 2,
         "languageCode": "de",
         "language": "German",
         "status": "Unconfirmed",
@@ -80,7 +80,7 @@
         ]
       },
       {
-        "translationId": "3",
+        "translationId": 3,
         "languageCode": "fr",
         "language": "French",
         "status": "In progress",
@@ -101,7 +101,7 @@
         ]
       },
       {
-        "translationId": "4",
+        "translationId": 4,
         "languageCode": "cn",
         "language": "Chinese (simplified)",
         "status": "Unconfirmed",
@@ -134,7 +134,7 @@
         ]
       },
       {
-        "translationId": "5",
+        "translationId": 5,
         "languageCode": "za",
         "language": "Afrikaans",
         "status": "In progress",

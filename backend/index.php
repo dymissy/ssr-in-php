@@ -46,7 +46,7 @@ $app->patch('/documents/{documentId}/translations/{translationId}',
         $translation['status'] = 'Confirmed';
         $translation['progress'] = 100;
 
-        $response->getBody()->write(json_encode($translation));
+        $response->getBody()->write(json_encode(['translation' => $translation]));
 
         return $response->withHeader('Content-Type', 'application/json')->withStatus(200);
     });
