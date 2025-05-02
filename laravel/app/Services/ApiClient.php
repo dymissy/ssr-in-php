@@ -3,6 +3,7 @@
 namespace App\Services;
 
 use App\Models\Document;
+use App\Models\Translation;
 use GuzzleHttp\Client;
 
 class ApiClient
@@ -17,5 +18,13 @@ class ApiClient
         $data = json_decode($response->getBody()->getContents(), true);
 
         return Document::create($data['document']);
+    }
+
+    public function confirmTranslation(int $documentId, int $translationId): Translation
+    {
+        $response = $this->client->patch("/documents/$documentId/translations/$translationId");
+        $data = json_decode($response->getBody()->getContents(), true);
+
+        return Translation::create($data['translation']);
     }
 }
