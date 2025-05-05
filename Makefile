@@ -1,4 +1,4 @@
-.PHONY: up down laravel symfony backend start-laravel start-symfony
+.PHONY: up down laravel symfony backend start-laravel start-symfony tests
 
 up:
 	docker compose up
@@ -20,3 +20,6 @@ start-symfony:
 
 backend:
 	docker compose exec backend bash
+
+tests:
+	docker compose exec laravel.test php ./vendor/bin/phpunit
