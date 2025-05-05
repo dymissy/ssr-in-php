@@ -34,6 +34,6 @@ class Translation
     #[LiveListener('translationConfirmed')]
     public function onTranslationConfirmed(): void
     {
-        $this->translation->status = 'Confirmed';
+        $this->translation = $this->apiClient->confirmTranslation($this->documentId, $this->translation->translationId);
     }
 }
