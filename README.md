@@ -3,7 +3,14 @@
 
 ```
 make up
+```
 
+## Start services
+To make services available you have to run watchers for the service you need:
+
+```
+make start-laravel
+make start-symfony
 ```
 
 ## Available services
